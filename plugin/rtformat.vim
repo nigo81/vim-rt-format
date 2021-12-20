@@ -258,7 +258,7 @@ function! s:RTFormatEnable()
 	augroup END
 	redraw
 	echohl TODO
-	echo "RTFormat is enabled in current buffer, exit with :RTFormatDisable"
+	"echo "RTFormat is enabled in current buffer, exit with :RTFormatDisable"
 	echohl None
 	return 0
 endfunc
